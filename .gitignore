@@ -1,0 +1,40 @@
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+*.so
+*.whl
+
+# Model weights
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.ckpt
+
+# Data
+data/
+*.json
+*.jsonl
+*.txt
+!requirements.txt
+
+# Logs
+logs/
+wandb/
+runs/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
